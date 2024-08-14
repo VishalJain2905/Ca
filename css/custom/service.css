@@ -1,0 +1,195 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header_top {
+    background: #000;
+   text-align: center;
+  }
+  
+  .header_top_left ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-top: 16px;
+  }
+  
+  .header_top_left a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header_top_right {
+    text-align: right;
+  }
+  .bh_header_top_right a{
+    color: #fff;
+  }
+  .header_top_right a {
+    color: #1ce719;
+    font-weight: bold;
+  }
+  
+  /* Logo and Navigation */
+  /* .bh_logo img {
+    height: 95px;
+    width: auto;
+  }
+  
+  .navbar-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-toggle {
+    background: transparent;
+    border: none;
+  }
+  
+  .navbar-toggle i {
+    font-size: 24px;
+  }
+  
+  .navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar-nav li a {
+    display: flex;
+    align-items: center;
+    color: #333;
+  }
+  
+  .navbar-nav li a:hover,
+  .navbar-nav .activeLink a {
+    color: #1ce719;
+  }
+  
+  /* Service Section */
+  .bh_serviceImg_area {
+    padding: 50px 0;
+  }
+  
+  .bh_service_singleImg {
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+  
+  .bh_serviceImg_text {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .bh_serviceImg_text h3 {
+    margin-bottom: 10px;
+  }
+  
+  .bh_serviceImg_text p {
+    color: #666;
+  }
+  
+  .bh_service_singleImg:hover .bh_serviceImg_text {
+    background: #f4f4f4;
+  } */
+  
+  /* Consult Section */
+  .bh_get_consult_area {
+    background: #f4f4f4;
+    padding: 50px 0;
+  }
+  
+  .bh_consult_left h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .bh_consult_middle p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .bh_consult_btn a {
+    background: #1ce719;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  .bh_footer_area {
+    background: #333;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .bh_footer_logo img {
+    height: 60px;
+    width: auto;
+  }
+  
+  .bh_footer_social_link ul {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .bh_footer_social_link a {
+    color: #fff;
+  }
+  
+  .bh_footer_social_link i {
+    font-size: 18px;
+  }
+  
+  .bh_important_link h2,
+  .bh_recent_projects h2 {
+    color: #1ce719;
+    margin-bottom: 15px;
+  }
+  
+  .bh_footer_bottom_content {
+    padding: 20px;
+    background: #222;
+    color: #666;
+    text-align: center;
+  }
+  .col-sm-4{
+    margin-bottom: 34px !important;
+  }
+  
